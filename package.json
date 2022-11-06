@@ -1,0 +1,14 @@
+{
+  "name": "shreya-birthday",
+  "version": "1.0.0",
+  "description": "hey",
+  "main": "index.js",
+  "scripts": {
+    "test": "hey"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "party-js": "^2.2.0"
+  }
+}

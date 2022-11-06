@@ -1,0 +1,15 @@
+.btn {
+  color: white;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  background-color: black;
+  font-size: 50px;
+  font-family: "Mate SC", serif;
+  font-weight: 900;
+}
