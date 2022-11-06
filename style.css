@@ -11,9 +11,7 @@ body {
   cursor: pointer;
   outline: none;
   /* background-color: black; */
-  background: url("image.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url("image.png") no-repeat center;
   background-size: cover;
   font-size: 50px;
   font-family: "Mate SC", serif;
