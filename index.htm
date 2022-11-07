@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XN11S2QX49"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XN11S2QX49");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,15 +26,15 @@
     />
   </head>
   <body id="body" onclick="play()">
-  <audio id="audio1" src="./audio/hbdpiano.mp3"></audio>
-  <audio id="audio2" src="./audio/hbdfunky.mp3"></audio>
-  <audio id="audio3" src="./audio/hbdtraditional.mp3"></audio>
+    <audio id="audio1" src="./audio/hbdpiano.mp3"></audio>
+    <audio id="audio2" src="./audio/hbdfunky.mp3"></audio>
+    <audio id="audio3" src="./audio/hbdtraditional.mp3"></audio>
 
-  <div id="maindiv" class="maindiv border-gradient .border-gradient-purple">
-    <p class="mainp" id="mainp">Happy Birthday Shreya</p>
-    <footer>Click and Right click to enjoy the party!</footer>
-    <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
-  </div>
+    <div id="maindiv" class="maindiv border-gradient .border-gradient-purple">
+      <p class="mainp" id="mainp">Happy Birthday Shreya</p>
+      <footer>Click and Right click to enjoy the party!</footer>
+      <script src="index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+    </div>
   </body>
 </html>
