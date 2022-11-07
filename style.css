@@ -4,7 +4,7 @@ body {
 .btn {
   color: black;
   width: 100%;
-  height: 94vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,8 +16,8 @@ body {
   font-size: 50px;
   font-family: "Mate SC", serif;
   font-weight: 900;
-  padding-top: 10px;
-  padding-right: 600px;
+  padding-top: 2rem;
+  padding-right: 40rem;
 }
 /* .btn:focus {
   animation: tp;
