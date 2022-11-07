@@ -18,6 +18,7 @@ body, html {
   box-sizing: border-box;
   display: flex;
   justify-content: center;
+  cursor: pointer;
   border: 10px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
@@ -28,7 +29,6 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
   outline: none;
 
   /*background: url("image.png") no-repeat center;*/
