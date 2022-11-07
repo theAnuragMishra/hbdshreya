@@ -4,8 +4,8 @@ window.oncontextmenu = function (event) {
   return false;
 };
 
-var btn = document.getElementById("btn");
+var mainp = document.getElementById("mainp");
 
-btn.addEventListener("contextmenu", (event) => {
+mainp.addEventListener("contextmenu", (event) => {
   party.sparkles(body);
 });
